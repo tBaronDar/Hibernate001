@@ -1,8 +1,13 @@
 package org.example;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+//this makes the class managed by hibernate
+@Entity
 class Student {
 
-
+    @Id//primary key of table
     private int id;
     private String fullName;
     private int age;
