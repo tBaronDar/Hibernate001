@@ -7,7 +7,7 @@
         <property name="hibernate.connection.password">postgres</property>
         <!-- property to allowed hibernate to add and edit tables(ddl) -->
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <!-- optional but adviced to specify the sql dialect -->
+        <!-- optional but advised to specify the sql dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <!-- to view the queries -->
         <property name="hibernate.show_sql">true</property>
